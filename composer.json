@@ -1,0 +1,19 @@
+{
+  "name": "frc/wp-env-heroku-jawsdb-maria",
+  "license": "MIT",
+  "type": "library",
+  "description": "Export Heroku jawsdb maria addon configuration for WordPress.",
+  "keywords": ["Heroku", "WordPress", "JawsDB", "MariaDB"],
+  "authors": [
+    {
+      "name": "Janne Aalto",
+      "email": "janne.aalto@frantic.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "autoload": {
+    "files": [ "src/MariaDB.php" ]
+  }
+}
